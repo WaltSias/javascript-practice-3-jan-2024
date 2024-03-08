@@ -126,9 +126,18 @@ for (let i = 0; i < 4; i++) {
 let animalLength = zooAnimals.length;
 console.log(`${zooAnimals} has less than ${zooAnimals.length}.`);
 // TODO: make a new array of sports teams. Use a loop to print them all to the console.
+let sportsTeams = ["saints", 'chiefs', "commanders", "cowboys"];
+for (let i = 0; i < 4; i++) {
+  console.log(sportsTeams[i]);
+}
+
 // Bonus: Can you think of a use for array.length in the for loop?
 
 // TODO: make a new array of anything else. Use a loop to print them all to the console.
+let classmates = ["antonio", 'desmon', "louis", "nick"];
+for (let i = 0; i < 4; i++) {
+  console.log(classmates[i]);
+}
 // Bonus: Can you think of a use for array.length in the for loop?
 
 // TODO: Add, Commit, Push!
