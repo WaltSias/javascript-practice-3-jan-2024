@@ -72,9 +72,23 @@ for (let i = 100; i < 201; i++) {
 console.log(`sum of numbers 100-200: ${sum}`);
 
 // TODO: add the numbers from 5 to 10
+sum = 0;
+for (let i = 5; i < 11; i++) {
+  sum = sum + i;
+}
+console.log(`sum of numbers 5-10; ${sum}`);
 // TODO: add the numbers from 55 to 65 
+sum = 0
+for (let i = 55; i < 66; i++) {
+  sum = sum + i;
+}
+console.log(`sum of numbers 55-65; ${sum}`);
 // TODO: add the numbers from 999 to 8000000
-
+sum = 0
+for (let i = 999; i < 8000001; i++) {
+  sum = sum + i;
+}
+console.log(`sum of number 999-8000000; ${sum}`);
 // Note: we can combine an accumulator and an array.
 // Example: what is the total number of characters in all the animals?
 console.log("**** Example: add up letters ****")
@@ -95,8 +109,10 @@ console.log(`The average length of the word is: ${average}`);
 total = 0;
 let prices = [1.01, 10.99, 4.32, 1000.03, 4.00];
 // TODO: add up all the prices in the array "prices".
-
-
+for (let i = 0; i < prices.length; i++) {
+  total = total + prices[i];
+}
+console.log(`total of all ${prices}`);
 
 console.log(`The total number of letters is: ${total}`);
 
