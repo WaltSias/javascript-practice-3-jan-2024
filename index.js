@@ -188,42 +188,11 @@ board = [
 // Let's sink the Submarine,
 // but only the Submarine.
 // Try this first, then scroll down for an answer...
-
-// Think...
-
-// Think...
-
-// Think...
-
-// Think...
-
-// Think...
-
-// Think...
-
-// Think...
-
-// Think...
-
-// Think...
-
-// Think...
-
-// Think...
-
-// Think...
-
-// Think...
-
-// Think...
-
-// Think...
-
-// Think...
-
-// Think...
-
-// Think...
+for (let i = 4; i < board.length; i++) {
+  if (board[i] === "S") {
+    board[i] = "X"
+  };
+}
 
 // Think...
 
@@ -238,11 +207,30 @@ for (let i = 0; i < board.length; i++) {
   }
 }
 console.log(board);
-
+board = [
+  "o", "D", "D", "o",
+  "S", "o", "o", "o",
+  "S", "C", "C", "C",
+  "S", "o", "o", "o",
+];
 // TODO: Sink the Destroyer (D)
+for (let i = 0; i < board.length; i++) {
+  if (board[i] === "D") {
+    board[i] = "X";
+  }
+}
+console.log(board);
 
 // TODO: Sink the Cruiser (C)
-
+for (let i = 0; i < board.length; i++) {
+  if (board[i] === "C") {
+    board[i] = "X";
+  }
+} console.log(board);
 // TODO: reset the board to open ocean again.
+for (let i = 0; i < board.length; i++) {
+  if (board[i] = "o");
+}
 
+console.log(board);
 // Bonus: Think of a new application of what we did today. Write a TODO for yourself. It should be similar to what we did, but add your own twist. Try it out, and lets us know how it when with a quick message in the Slack channel!
